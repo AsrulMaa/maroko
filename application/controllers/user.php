@@ -202,7 +202,7 @@ class User extends CI_Controller
 		// $data['tb_data_anggota'] = $this->model_user->tampil_biodata();
 		$data['tb_data_anggota'] = $this->model_user->tampil_databiodata();
 		$this->load->view('templates/header_dashboard',$title);
-		$this->load->view('backend/user/data/data_user',$data);
+		$this->load->view('backend/user/data/data_u ser',$data);
 		$this->load->view('backend/user/sidebar');
 		$this->load->view('templates/footer_dashboard');	
 	}
